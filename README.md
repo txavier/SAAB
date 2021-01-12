@@ -5,6 +5,15 @@ This repository is meant to be a living document containing knowledge for keepin
 To add information here, remember that it doesnt need to be perfect.  Just add it!
 
 ## Informational
+
+### Documents
+
+ - [vintagesaabmanuals](http://www.vintagesaabmanuals.org/)
+ - [spodder.com/saab](https://spodder.com/saab/)
+ - [saabnet manuals](https://www.saabnet.com/tsn/faq/manuals/)
+ - [How K-Jetronic works](https://www.volvoclub.org.uk/tech/fuel_injection/k_jetronic.shtml)
+ - [saabv4](http://www.saabv4.com/)
+
 ### Vin Decoder:
  - http://saabvin.com/
  - https://www.iseecars.com/vin
@@ -28,3 +37,4 @@ To add information here, remember that it doesnt need to be perfect.  Just add i
  - saabnet.com
  - saabcentral.com
  - saabworld.com
+ - [uksaabs.co.uk](http://www.uksaabs.co.uk/)
