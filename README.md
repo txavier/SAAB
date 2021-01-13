@@ -5,6 +5,8 @@ This repository is meant to be a living document containing knowledge for keepin
 To add information here, remember that it doesnt need to be perfect.  Just add it!
 
 ## Informational
+### Car Buying Guide
+https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
 
 ### Documents
 
