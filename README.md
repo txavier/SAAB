@@ -24,12 +24,12 @@ To add information here, remember that it doesnt need to be perfect.  Just add i
  - https://www.topgear.com/videos/jeremy-clarkson/tribute-saab-part-22-series-18-episode-5
 
 ### Parts:
- - RockAuto.com
- - esaabparts.com
- - eeuroparts.com
+ - http://RockAuto.com
+ - http://esaabparts.com
+ - http://eeuroparts.com
  - https://www.saabits.com/
  - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
- - FCPeuro
+ - http://FCPeuro.com
  - https://www.maptunparts.com/
  - http://www.twinsaabs.com/
  
