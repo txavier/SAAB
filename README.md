@@ -20,6 +20,9 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://saabvin.com/
  - https://saabparts.com/us/mysaabcar-online/saab-original-vin-decoder/
  - https://www.iseecars.com/vin
+ 
+### Workshop Information System (WIS) Online
+ - https://saabwisonline.com/
 
 ### Tribute to SAAB Top Gear:
  - https://vimeo.com/44087332
