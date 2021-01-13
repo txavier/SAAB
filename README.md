@@ -39,6 +39,9 @@ http://saabarchive.net/index.php/wheels/wdb
 ### SAAB Paint Code Database
 http://saabarchive.net/index.php/colors/cdb
 
+### SAAB US Production Number Database
+https://www.esaabparts.com/saab/production/data/
+
 ### Forums:
  - saabnet.com
  - saabcentral.com
