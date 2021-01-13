@@ -44,8 +44,9 @@ http://saabarchive.net/index.php/colors/cdb
 https://www.esaabparts.com/saab/production/data/
 
 ### Forums:
- - saabnet.com
- - saabcentral.com
- - Saablink.net
- - saabworld.com
+ - http://saabnet.com
+ - http://saabcentral.com
+ - http://Saablink.net
+ - http://saabworld.com
  - [uksaabs.co.uk](http://www.uksaabs.co.uk/)
+ - http://reddit.com/r/saab
