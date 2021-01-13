@@ -22,8 +22,9 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://saabforums.com/forum/vindecoder.php
  - https://www.iseecars.com/vin
  
-### Workshop Information System (WIS) Online
- - https://saabwisonline.com/
+### Workshop Information System (WIS)
+ - Online: https://saabwisonline.com/
+ - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
 
 ### Tribute to SAAB Top Gear:
  - https://vimeo.com/44087332
@@ -41,6 +42,9 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://www.twinsaabs.com/
  - https://genuinesaab.com/
  - https://www.modernclassicsaab.com/
+
+### Electronic Parts Catalog (EPC):
+ - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
  
 ### SAAB Wheel Database
 http://saabarchive.net/index.php/wheels/wdb
