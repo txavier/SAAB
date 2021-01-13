@@ -35,6 +35,8 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://FCPeuro.com
  - https://www.maptunparts.com/
  - http://www.twinsaabs.com/
+ - https://genuinesaab.com/
+ - https://www.modernclassicsaab.com/
  
 ### SAAB Wheel Database
 http://saabarchive.net/index.php/wheels/wdb
