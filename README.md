@@ -32,6 +32,12 @@ To add information here, remember that it doesnt need to be perfect.  Just add i
  - FCPeuro
  - https://www.maptunparts.com/
  - http://www.twinsaabs.com/
+ 
+### SAAB Wheel Database
+http://saabarchive.net/index.php/wheels/wdb
+
+### SAAB Paint Code Database
+http://saabarchive.net/index.php/colors/cdb
 
 ### Forums:
  - saabnet.com
