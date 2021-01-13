@@ -16,6 +16,7 @@ To add information here, remember that it doesnt need to be perfect.  Just add i
 
 ### Vin Decoder:
  - http://saabvin.com/
+ - https://saabparts.com/us/mysaabcar-online/saab-original-vin-decoder/
  - https://www.iseecars.com/vin
 
 ### Tribute to SAAB Top Gear:
