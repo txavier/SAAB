@@ -15,6 +15,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - [saabnet manuals](https://www.saabnet.com/tsn/faq/manuals/)
  - [How K-Jetronic works](https://www.volvoclub.org.uk/tech/fuel_injection/k_jetronic.shtml)
  - [saabv4](http://www.saabv4.com/)
+ - https://saabwisonline.com
 
 ### Vin Decoder:
  - http://saabvin.com/
