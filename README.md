@@ -44,6 +44,11 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://www.twinsaabs.com/
  - https://genuinesaab.com/
  - https://www.modernclassicsaab.com/
+ 
+### Mechanics
+#### New York Area
+ - Swedish Underground Auto - 814 Glenmore Ave, Brooklyn, NY 11208 - (718) 622-3838
+ - Quality Auto Services - 516 W 39th St, New York, NY 10018 - (212) 244-4420
 
 ### Electronic Parts Catalog (EPC):
  - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
