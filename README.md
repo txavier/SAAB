@@ -44,8 +44,10 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://FCPeuro.com
  - https://genuinesaab.com/
  - https://www.goldwingsaabparts.com/
+ - https://www.junkyarddog.com/
  - https://www.maptunparts.com/
  - https://www.modernclassicsaab.com/
+ - https://www.neobrothers.co.uk/
  - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
  - https://www.pelicanparts.com/Saab/index-SC.htm
  - http://RockAuto.com
