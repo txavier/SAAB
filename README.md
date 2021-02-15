@@ -17,6 +17,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - Jetronic https://ipdown.net/jetronic.info/tiki-index.php?page=LH+2.4+Overview
  - [saabv4](http://www.saabv4.com/)
  - https://saabwisonline.com
+ - SAAB Genuine Accessory Installation Instructions - https://www.saabdocs.com/index.html
 
 ### Vin Decoder:
  - http://saabvin.com/
@@ -37,17 +38,21 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://www.topgear.com/videos/jeremy-clarkson/tribute-saab-part-22-series-18-episode-5
 
 ### Parts:
- - http://RockAuto.com
+ - https://www.carpartsdiscount.com/
  - http://esaabparts.com
  - http://eeuroparts.com
- - https://www.saabits.com/
- - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
  - http://FCPeuro.com
- - https://www.maptunparts.com/
- - http://www.twinsaabs.com/
  - https://genuinesaab.com/
+ - https://www.goldwingsaabparts.com/
+ - https://www.maptunparts.com/
  - https://www.modernclassicsaab.com/
- - https://www.carpartsdiscount.com/
+ - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
+ - https://www.pelicanparts.com/Saab/index-SC.htm
+ - http://RockAuto.com
+ - https://www.saabits.com/
+ - https://www.swedishmotorsports.com/
+ - http://www.twinsaabs.com/
+ - https://www.wpdusa.com/
  
 ### Mechanics
 #### New York Area
