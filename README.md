@@ -28,6 +28,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
 ### Workshop Information System (WIS)
  - Online: https://saabwisonline.com/
  - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
+   - Requirements - https://www.saabplanet.com/users-guide-for-the-saab-wis/
    - Installation - https://youtu.be/f0PL32hbYdc
    - Use - https://youtu.be/wdMe12LtkNs
 
