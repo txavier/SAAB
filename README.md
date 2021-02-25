@@ -66,7 +66,8 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
 
 ### Electronic Parts Catalog (EPC):
  - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
- 
+ - Online parts catalog - https://saab.7zap.com/en/
+
 ### SAAB Wheel Database
 http://saabarchive.net/index.php/wheels/wdb
 
