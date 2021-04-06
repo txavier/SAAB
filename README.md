@@ -73,6 +73,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
 
 ### SAAB Wheel Database
 http://saabarchive.net/index.php/wheels/wdb
+https://jpowell.tripod.com/saab-wheels/index.html
 
 ### SAAB Paint Code Database
 http://saabarchive.net/index.php/colors/cdb
