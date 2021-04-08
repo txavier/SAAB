@@ -50,6 +50,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://FCPeuro.com
  - https://genuinesaab.com/
  - https://www.goldwingsaabparts.com/
+ - http://jimellissaabparts.com
  - https://www.junkyarddog.com/
  - https://www.maptunparts.com/
  - https://www.modernclassicsaab.com/
@@ -58,6 +59,8 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://www.pelicanparts.com/Saab/index-SC.htm
  - http://RockAuto.com
  - https://www.saabits.com/
+ - https://www.saabpartscounter.com/
+ - https://saabusaparts.com/
  - https://www.swedishmotorsports.com/
  - http://www.twinsaabs.com/
  - https://www.wpdusa.com/
