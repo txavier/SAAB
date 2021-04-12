@@ -64,6 +64,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://www.swedishmotorsports.com/
  - http://www.twinsaabs.com/
  - https://www.wpdusa.com/
+ - https://shop.speedparts.se/
  
 ### Mechanics
 #### New York Area
@@ -78,8 +79,8 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - Online parts catalog - https://saab.7zap.com/en/
 
 ### SAAB Wheel Database
-http://saabarchive.net/index.php/wheels/wdb
-https://jpowell.tripod.com/saab-wheels/index.html
+- http://saabarchive.net/index.php/wheels/wdb
+- https://jpowell.tripod.com/saab-wheels/index.html
 
 ### SAAB Paint Code Database
 http://saabarchive.net/index.php/colors/cdb
