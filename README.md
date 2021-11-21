@@ -17,6 +17,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - Jetronic https://ipdown.net/jetronic.info/tiki-index.php?page=LH+2.4+Overview
  - [saabv4](http://www.saabv4.com/)
  - https://saabwisonline.com
+ - SAAB Genuine Accessory Installation Instructions - https://www.saabdocs.com/index.html
 
 ### Vin Decoder:
  - http://saabvin.com/
@@ -27,9 +28,16 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
 ### Workshop Information System (WIS)
  - Online: https://saabwisonline.com/
  - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
+   - Requirements - https://www.saabplanet.com/users-guide-for-the-saab-wis/
+   - Installation - https://youtu.be/f0PL32hbYdc
+   - Use - https://youtu.be/wdMe12LtkNs
 
-### SAAB Technical Wiki
+### SAAB Technical Websites
  - http://www.saabwiki.info/index.php?title=Main_Page
+ - http://townsendimports.com/
+
+### Tech 2
+ - https://tech2wiki.com/
 
 ### Tribute to SAAB Top Gear:
  - https://vimeo.com/44087332
@@ -37,28 +45,43 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://www.topgear.com/videos/jeremy-clarkson/tribute-saab-part-22-series-18-episode-5
 
 ### Parts:
- - http://RockAuto.com
+ - https://www.carpartsdiscount.com/
  - http://esaabparts.com
  - http://eeuroparts.com
- - https://www.saabits.com/
- - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
  - http://FCPeuro.com
- - https://www.maptunparts.com/
- - http://www.twinsaabs.com/
  - https://genuinesaab.com/
+ - https://www.goldwingsaabparts.com/
+ - http://jimellissaabparts.com
+ - https://www.junkyarddog.com/
+ - https://www.maptunparts.com/
  - https://www.modernclassicsaab.com/
- - https://www.carpartsdiscount.com/
+ - https://www.neobrothers.co.uk/
+ - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
+ - https://www.pelicanparts.com/Saab/index-SC.htm
+ - http://RockAuto.com
+ - https://www.saabits.com/
+ - https://www.saabpartscounter.com/
+ - https://saabusaparts.com/
+ - https://www.swedishmotorsports.com/
+ - http://www.twinsaabs.com/
+ - https://www.wpdusa.com/
+ - https://shop.speedparts.se/
  
-### Mechanics
+### Mechanics and Specialists
 #### New York Area
  - Swedish Underground Auto - 814 Glenmore Ave, Brooklyn, NY 11208 - (718) 622-3838
  - Quality Auto Services - 516 W 39th St, New York, NY 10018 - (212) 244-4420 - qualityautoservicesnyc.com
 
+#### UK
+ - K-Jetronic specialist refurbishers https://www.kmipetrolinjection.co.uk/Bosch%20K-Jetronic.htm
+
 ### Electronic Parts Catalog (EPC):
  - [Windows Installer](https://1drv.ms/u/s!Av5IQUxnr8DUjZI_2RHhJS0LoK6z8g?e=yCHs3A)
- 
+ - Online parts catalog - https://saab.7zap.com/en/
+
 ### SAAB Wheel Database
-http://saabarchive.net/index.php/wheels/wdb
+- http://saabarchive.net/index.php/wheels/wdb
+- https://jpowell.tripod.com/saab-wheels/index.html
 
 ### SAAB Paint Code Database
 http://saabarchive.net/index.php/colors/cdb
