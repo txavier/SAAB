@@ -8,3 +8,5 @@
 # Steering and Wheel Alignment
 # Suspension
 # Body
+## Interior Trim and Upholstery
+## Bumpers
