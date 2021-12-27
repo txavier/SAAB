@@ -62,6 +62,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://www.saabits.com/
  - https://www.saabpartscounter.com/
  - https://saabusaparts.com/
+ - https://stevelewissaab.com/
  - https://www.swedishmotorsports.com/
  - http://www.twinsaabs.com/
  - https://www.wpdusa.com/
