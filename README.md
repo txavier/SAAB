@@ -53,6 +53,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://www.goldwingsaabparts.com/
  - http://jimellissaabparts.com
  - https://www.junkyarddog.com/
+ - https://www.lkqonline.com/
  - https://malbrad.co.uk/
  - https://www.maptunparts.com/
  - https://www.modernclassicsaab.com/
