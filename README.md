@@ -101,6 +101,7 @@ http://saabarchive.net/index.php/colors/cdb
 
 ### SAAB US Production Number Database
 https://www.esaabparts.com/saab/production/data/
+https://9-5sc2012.com/productionreport/
 
 ### Forums:
  - http://saabnet.com
