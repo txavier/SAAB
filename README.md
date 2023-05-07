@@ -60,6 +60,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://mbenzgram.com/
  - https://www.modernclassicsaab.com/
  - https://www.neobrothers.co.uk/
+ - https://www.ordereuroparts.com/
  - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
  - https://partsgeek.com
  - https://www.pelicanparts.com/Saab/index-SC.htm
@@ -84,7 +85,8 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
 #### New York Area
  - Swedish Underground Auto - 814 Glenmore Ave, Brooklyn, NY 11208 - (718) 622-3838
  - Quality Auto Services - 516 W 39th St, New York, NY 10018 - (212) 244-4420 - qualityautoservicesnyc.com
-
+#### Charlotte, NC
+ - Swedish Garage Inc - 1900 Remount Rd, Charlotte, NC 28208
 #### UK
  - K-Jetronic specialist refurbishers https://www.kmipetrolinjection.co.uk/Bosch%20K-Jetronic.htm
 
