@@ -51,6 +51,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://elferink.nl
  - https://www.europartsplus.com/
  - http://FCPeuro.com
+ - http://findingsaabparts.com/
  - https://genuinesaab.com/
  - https://www.goldwingsaabparts.com/
  - http://jimellissaabparts.com
