@@ -54,6 +54,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - http://findingsaabparts.com/
  - https://genuinesaab.com/
  - https://www.goldwingsaabparts.com/
+ - https://www.hblom.se/
  - http://jimellissaabparts.com
  - https://www.junkyarddog.com/
  - https://www.lkqonline.com/
