@@ -24,6 +24,8 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://saabparts.com/us/mysaabcar-online/saab-original-vin-decoder/
  - https://saabforums.com/forum/vindecoder.php
  - https://www.iseecars.com/vin
+ - https://shop.speedparts.se/en/pages/vin-checkup.html
+ - https://www.esaabparts.com/saab/95ng/
  
 ### Workshop Information System (WIS)
  - Online: https://saabwisonline.com/
