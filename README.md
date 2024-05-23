@@ -69,6 +69,7 @@ https://www.reddit.com/r/saab/comments/2gcgp5/sabbit_car_buying_guide/
  - https://partsforsaabs.com/?fbclid=IwAR1-rWbIKOksO0B9sorFwwmwSYV4H5MSa16WVdtyGPZn3yM8_zxroVVMz1g
  - https://partsgeek.com
  - https://www.pelicanparts.com/Saab/index-SC.htm
+ - https://www.rbmsaabparts.com/
  - https://redaero.net/
  - https://reierparts.com/
  - http://RockAuto.com
