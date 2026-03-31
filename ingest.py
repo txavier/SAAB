@@ -100,7 +100,7 @@ def main():
     # Delete existing collection if re-ingesting
     try:
         client.delete_collection(COLLECTION)
-    except ValueError:
+    except (ValueError, Exception):
         pass
     collection = client.create_collection(
         name=COLLECTION,
