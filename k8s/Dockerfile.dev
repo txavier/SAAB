@@ -1,0 +1,23 @@
+FROM python:3.12-slim
+
+# Dev tools
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    curl \
+    wget \
+    vim \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Ollama CLI (for pulling/managing models from inside the container)
+RUN curl -fsSL https://ollama.com/install.sh | sh || true
+
+WORKDIR /workspace
+
+# Pre-install Python dependencies so they're ready after clone
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+# Pre-download the embedding model so ingest.py is fast
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+
+CMD ["sleep", "infinity"]
