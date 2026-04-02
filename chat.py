@@ -74,7 +74,13 @@ Provide a helpful answer based on the context above."""
         stream=True,
         timeout=300,
     )
-    r.raise_for_status()
+    if not r.ok:
+        try:
+            detail = r.json().get("error", r.text)
+        except Exception:
+            detail = r.text
+        print(f"\nOllama error ({r.status_code}): {detail}")
+        return ""
 
     response_text = ""
     for line in r.iter_lines():

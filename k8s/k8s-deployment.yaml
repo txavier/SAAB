@@ -28,6 +28,8 @@ metadata:
     app: ollama
 spec:
   replicas: 1
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: ollama
@@ -47,7 +49,7 @@ spec:
           resources:
             requests:
               memory: "6Gi"
-              cpu: "2"
+              cpu: "500m"
             limits:
               memory: "10Gi"
               cpu: "4"
