@@ -139,8 +139,8 @@ spec:
     spec:
       containers:
         - name: saab-chat
-          image: saab-ai:latest    # build with: docker build -t saab-ai .
-          imagePullPolicy: IfNotPresent
+          image: 192.168.87.35:5000/saab-ai:latest    # see QuickStart.md for build instructions
+          imagePullPolicy: Always
           env:
             - name: OLLAMA_URL
               value: "http://ollama:11434"

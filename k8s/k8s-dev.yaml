@@ -153,8 +153,8 @@ spec:
     spec:
       containers:
         - name: dev
-          image: saab-dev:latest   # build with: docker build -f Dockerfile.dev -t saab-dev .
-          imagePullPolicy: IfNotPresent
+          image: 192.168.87.35:5000/saab-dev:latest   # see QuickStart.md for build instructions
+          imagePullPolicy: Always
           env:
             - name: OLLAMA_URL
               value: "http://ollama:11434"

@@ -1,10 +1,52 @@
 # Quick Start — SAAB AI Dev Environment in Kubernetes
 
+## Prerequisites
+
+The K8s manifests pull images from a **local registry** at `192.168.87.35:5000`.
+This registry runs on the control-plane node and is already configured across all
+cluster nodes via the `registry-config-daemonset` (from the RobinhoodBot project).
+
+## Building Images
+
+After building, images must be pushed to the local registry so Kubernetes
+(containerd) can pull them. Choose the method that matches your setup.
+
+### Docker (Docker Engine installed on the build machine)
+
+```bash
+# Option A image — standalone chat
+docker build -f k8s/Dockerfile -t saab-ai .
+docker tag saab-ai:latest localhost:5000/saab-ai:latest
+docker push localhost:5000/saab-ai:latest
+
+# Option B image — dev sandbox
+docker build -f k8s/Dockerfile.dev -t saab-dev .
+docker tag saab-dev:latest localhost:5000/saab-dev:latest
+docker push localhost:5000/saab-dev:latest
+```
+
+> **Note:** If building on a remote machine, use `192.168.87.35:5000` instead of
+> `localhost:5000` and ensure Docker is configured to allow the insecure registry
+> (`/etc/docker/daemon.json` → `"insecure-registries": ["192.168.87.35:5000"]`).
+
+### containerd / nerdctl (no Docker)
+
+```bash
+# Option A image — standalone chat
+sudo nerdctl build -f k8s/Dockerfile -t 192.168.87.35:5000/saab-ai:latest .
+sudo nerdctl push --insecure-registry 192.168.87.35:5000/saab-ai:latest
+
+# Option B image — dev sandbox
+sudo nerdctl build -f k8s/Dockerfile.dev -t 192.168.87.35:5000/saab-dev:latest .
+sudo nerdctl push --insecure-registry 192.168.87.35:5000/saab-dev:latest
+```
+
+---
+
 ## Option A: Standalone Chat (headless)
 
 ```powershell
-# Run from repo root
-docker build -f k8s/Dockerfile -t saab-ai .
+# Build and push the image first (see "Building Images" above)
 kubectl apply -f k8s/k8s-deployment.yaml
 kubectl -n saab-ai logs -f job/pull-deepseek-model
 kubectl -n saab-ai attach -it deployment/saab-chat
@@ -15,9 +57,7 @@ kubectl -n saab-ai attach -it deployment/saab-chat
 ### 1. Build and deploy
 
 ```powershell
-# Run from repo root
-# Build the dev image
-docker build -f k8s/Dockerfile.dev -t saab-dev .
+# Build and push the dev image first (see "Building Images" above)
 
 # Deploy Ollama + dev pod
 kubectl apply -f k8s/k8s-dev.yaml
