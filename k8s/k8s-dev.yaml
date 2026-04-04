@@ -165,11 +165,11 @@ spec:
               mountPath: /workspace
           resources:
             requests:
-              memory: "1Gi"
-              cpu: "2"
+              memory: "512Mi"
+              cpu: "500m"
             limits:
-              memory: "4Gi"
-              cpu: "4"
+              memory: "6Gi"
+              cpu: "8"
           stdin: true
           tty: true
       volumes:
