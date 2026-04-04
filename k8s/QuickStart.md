@@ -79,7 +79,7 @@ python chat.py
 
 ### 3. Connect VS Code
 
-**Install the Kubernetes extension** in VS Code, then:
+**Install the Kubernetes and Dev Containers extensions** in VS Code, then:
 
 1. Open the Command Palette (`Ctrl+Shift+P`)
 2. Run **Kubernetes: Attach Visual Studio Code**
