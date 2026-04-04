@@ -48,11 +48,11 @@ spec:
               mountPath: /root/.ollama
           resources:
             requests:
-              memory: "6Gi"
-              cpu: "500m"
-            limits:
-              memory: "10Gi"
+              memory: "8Gi"
               cpu: "4"
+            limits:
+              memory: "16Gi"
+              cpu: "8"
           readinessProbe:
             httpGet:
               path: /api/tags
