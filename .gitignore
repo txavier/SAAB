@@ -1,0 +1,5 @@
+.vectordb/chroma.sqlite3
+.vectordb/12d9250d-04d6-4c8a-86ee-b6d79c707e1f/data_level0.bin
+.vectordb/12d9250d-04d6-4c8a-86ee-b6d79c707e1f/header.bin
+.vectordb/12d9250d-04d6-4c8a-86ee-b6d79c707e1f/length.bin
+.vectordb/12d9250d-04d6-4c8a-86ee-b6d79c707e1f/link_lists.bin

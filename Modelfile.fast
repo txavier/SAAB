@@ -1,0 +1,25 @@
+# Modelfile for aggressively quantized DeepSeek R1 1.5B
+# Used by FAST=1 mode for maximum speed with Ollama.
+#
+# Build:  ollama create deepseek-fast -f Modelfile.fast
+# Use:    FAST=1 python chat.py
+
+FROM deepseek-r1:1.5b
+
+# Tighter context window → faster first-token latency
+PARAMETER num_ctx 2048
+
+# Lower temperature for more focused RAG answers
+PARAMETER temperature 0.6
+
+# Stop generating after reasonable length
+PARAMETER num_predict 512
+
+# Use all available threads
+PARAMETER num_thread 0
+
+SYSTEM """You are a SAAB vehicle expert assistant. You help owners maintain, repair, and upgrade their SAAB cars.
+You answer questions using ONLY the provided context from the SAAB knowledge base.
+If the context doesn't contain enough information to answer, say so honestly.
+Always mention the specific SAAB model (96, C900, NG9-3, NG9-5) when relevant.
+Keep answers concise and practical."""

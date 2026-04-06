@@ -76,6 +76,51 @@ Edit the `MODEL` variable in `chat.py`:
 
 Pull your chosen model: `ollama pull deepseek-r1:14b`
 
+## Fast Inference Modes
+
+### Option 1: BitNet via llama.cpp (fastest CPU inference)
+
+Uses llama.cpp's optimized low-bit kernels with IQ2_XXS quantization (~1.58 bits per weight).
+This is near-ternary {-1, 0, 1} precision — dramatically faster on CPU with ~3 GB RAM.
+
+```bash
+# One-time setup: builds llama.cpp + downloads quantized model
+./setup_bitnet.sh
+
+# Start the llama.cpp server
+./start_bitnet.sh
+
+# Run chatbot in BitNet mode
+BITNET=1 python chat.py
+```
+
+| Quantization | Bits/weight | RAM   | Speed vs 8B | Quality  |
+|---|---|---|---|---|
+| IQ2_XXS (default) | ~1.58 | ~3 GB | ~3-4x faster | Usable for RAG |
+| Q2_K              | ~2.6  | ~4 GB | ~2-3x faster | Better          |
+| IQ1_S             | ~1.0  | ~2 GB | ~4-5x faster | Lowest          |
+
+To use a different quantization: `./setup_bitnet.sh Q2_K`
+
+### Option 2: Fast Ollama mode (easiest setup)
+
+Uses the smallest DeepSeek model (1.5B) with Ollama — no extra build steps.
+
+```bash
+# Pull the small model
+ollama pull deepseek-r1:1.5b
+
+# Run in fast mode
+FAST=1 python chat.py
+```
+
+Or build the custom Modelfile with tuned parameters:
+
+```bash
+ollama create deepseek-fast -f Modelfile.fast
+FAST=1 FAST_MODEL=deepseek-fast python chat.py
+```
+
 ## Re-ingesting After Data Changes
 
 If you update any `.md` files, re-run:
@@ -94,9 +139,12 @@ SAAB/
 ├── C900.md          # Classic 900 knowledge
 ├── NG9-3.md         # New Generation 9-3 knowledge
 ├── NG9-5.md         # New Generation 9-5 knowledge
-├── chat.py          # Interactive chatbot
+├── chat.py          # Interactive chatbot (supports Ollama + BitNet)
 ├── ingest.py        # Document ingestion pipeline
 ├── setup.ps1        # One-click Windows setup
+├── setup_bitnet.sh  # BitNet llama.cpp setup (builds + downloads model)
+├── start_bitnet.sh  # (generated) Starts the BitNet llama.cpp server
+├── Modelfile.fast   # Ollama Modelfile for aggressive quantization
 ├── requirements.txt # Python dependencies
 ├── .vectordb/       # (generated) Vector store
 ├── Documents/       # Additional reference docs

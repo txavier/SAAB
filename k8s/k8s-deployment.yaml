@@ -85,6 +85,7 @@ spec:
 
 ---
 # Init job — pulls the DeepSeek model into Ollama after first deploy
+# Pulls both the standard 8B and the fast 1.5B model.
 apiVersion: batch/v1
 kind: Job
 metadata:
@@ -114,10 +115,16 @@ spec:
             - sh
             - -c
             - |
-              echo "Pulling deepseek-r1:8b..."
-              curl -s http://ollama:11434/api/pull \
+              echo "Pulling deepseek-r1:8b (standard)..."
+              curl -sf http://ollama:11434/api/pull \
                 -d '{"name": "deepseek-r1:8b"}' \
                 --max-time 1800
+              echo ""
+              echo "Pulling deepseek-r1:1.5b (fast/aggressive quant)..."
+              curl -sf http://ollama:11434/api/pull \
+                -d '{"name": "deepseek-r1:1.5b"}' \
+                --max-time 600
+              echo ""
               echo "Model pull complete."
 
 ---
@@ -146,6 +153,186 @@ spec:
           env:
             - name: OLLAMA_URL
               value: "http://ollama:11434"
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "500m"
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+          stdin: true
+          tty: true
+
+---
+# ═══════════════════════════════════════════════════════════════
+# OPTION 2: BitNet mode — llama.cpp with IQ2_XXS (~1.58 bpw)
+# Deploy this INSTEAD of (or alongside) the Ollama stack above.
+# Requires a custom image with llama.cpp + pre-quantized model.
+# Build: docker build -f k8s/Dockerfile.bitnet -t saab-ai-bitnet .
+# ═══════════════════════════════════════════════════════════════
+
+# Persistent storage for the BitNet GGUF model
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: bitnet-models
+  namespace: saab-ai
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+
+---
+# llama.cpp server with BitNet-quantized DeepSeek
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: llama-bitnet
+  namespace: saab-ai
+  labels:
+    app: llama-bitnet
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: llama-bitnet
+  template:
+    metadata:
+      labels:
+        app: llama-bitnet
+    spec:
+      containers:
+        - name: llama-server
+          image: ghcr.io/ggerganov/llama.cpp:server
+          args:
+            - "--model"
+            - "/models/deepseek-r1-8b-IQ2_XXS.gguf"
+            - "--host"
+            - "0.0.0.0"
+            - "--port"
+            - "8081"
+            - "-ngl"
+            - "0"
+            - "-c"
+            - "4096"
+            - "-t"
+            - "4"
+            - "--chat-template"
+            - "chatml"
+          ports:
+            - containerPort: 8081
+          volumeMounts:
+            - name: models
+              mountPath: /models
+          resources:
+            requests:
+              memory: "4Gi"
+              cpu: "4"
+            limits:
+              memory: "6Gi"
+              cpu: "8"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8081
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8081
+            initialDelaySeconds: 15
+            periodSeconds: 30
+      volumes:
+        - name: models
+          persistentVolumeClaim:
+            claimName: bitnet-models
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: llama-bitnet
+  namespace: saab-ai
+spec:
+  selector:
+    app: llama-bitnet
+  ports:
+    - port: 8081
+      targetPort: 8081
+
+---
+# SAAB chatbot — BitNet mode (connects to llama.cpp instead of Ollama)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: saab-chat-bitnet
+  namespace: saab-ai
+  labels:
+    app: saab-chat-bitnet
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: saab-chat-bitnet
+  template:
+    metadata:
+      labels:
+        app: saab-chat-bitnet
+    spec:
+      containers:
+        - name: saab-chat
+          image: ${REGISTRY_HOST}/saab-ai:latest  # Set REGISTRY_HOST to your registry (e.g. 192.168.x.x:5000)
+          imagePullPolicy: Always
+          env:
+            - name: BITNET
+              value: "1"
+            - name: BITNET_URL
+              value: "http://llama-bitnet:8081"
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "500m"
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+          stdin: true
+          tty: true
+
+---
+# SAAB chatbot — Fast Ollama mode (uses 1.5B model)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: saab-chat-fast
+  namespace: saab-ai
+  labels:
+    app: saab-chat-fast
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: saab-chat-fast
+  template:
+    metadata:
+      labels:
+        app: saab-chat-fast
+    spec:
+      containers:
+        - name: saab-chat
+          image: ${REGISTRY_HOST}/saab-ai:latest  # Set REGISTRY_HOST to your registry (e.g. 192.168.x.x:5000)
+          imagePullPolicy: Always
+          env:
+            - name: FAST
+              value: "1"
+            - name: OLLAMA_URL
+              value: "http://ollama:11434"
+            - name: FAST_MODEL
+              value: "deepseek-r1:1.5b"
           resources:
             requests:
               memory: "512Mi"
